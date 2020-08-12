@@ -22,15 +22,24 @@ body {
   display: none;
 }
 
+#icone{
+    z-index: 1;
+    
+}
 .menuItens {
-  display: none;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  transition: all .2s linear;
+
+}
+.menuItens a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
-.menuItens li {
-  border-left: 2px solid #e0e0e0;
-  padding-left: 6px;
-  display: flex;
-}
+
+
 
 .main--container {
   font-size: 14px;
@@ -123,7 +132,7 @@ h3 {
     width: 400px;
     display: flex;
     justify-content: flex-start;
-    list-style: none;
+    
     background-color: #ffffff;
     padding: 5px 10px;
   }
