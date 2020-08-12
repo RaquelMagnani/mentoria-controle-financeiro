@@ -15,39 +15,72 @@
     <h1>Controle Financeiro</h1>
     <input type="checkbox" id="check" />
     <!-- <label id="icone" for="check"><img src="assets/menu.png" /></label> -->
-    
+
     <div class="menuItens">
-        <li>Dashboard</li>
-        <li>Resumo</li>
-        <li>Configurações</li>
+      <li>Dashboard</li>
+      <li>Resumo</li>
+      <li>Configurações</li>
     </div>
   </nav>
   <main class="main--container">
     <form class="form--container">
       <h3>Nova Transição</h3>
       <label>
-        Tipo de transição </br>
-        <input type="text" /> </br>
+        Tipo de transição
+        <input type="text" />
       </label>
       <label>
-        Nome da Mercadoria </br>
-        <input type="text" ></br>
+        Nome da Mercadoria
+        <input type="text" />
       </label>
       <label>
-        Valor</br>
-        <input type="number" /> </br>
+        Valor
+        <input type="number" />
       </label>
       <button>Adicionar transação</button>
     </form>
-    <section>
+    <section class="table--container">
+      <h3>Extrato de transações</h3>
 
-      <h2>Extrato de transações</h2>
-      <h3>Mercadoria Valor</h3>
-      <p>+ Lorem ipsum dolor sit amet consectetur R$ 12.909,99</p>
-      <p>- Quis nostrud exercitation R$ 99,99</p>
-      <p>+Lorem ipsum R$ 9,99</p>
-      <p>Total R$ 12.909,99</p>
-      <p>[Lucro]</p>
+      <table>
+        <tr>
+          <td>Mercadoria</td>
+          <td>Valor</td>
+        </tr>
+        <tr>
+          <td>Lorem ipsum dolor sit amet consectetur</td>
+          <td>R$ 12.909,99</td>
+        </tr>
+        <tr>
+          <td>
+            Quis nostrud exercitation
+          </td>
+          <td>
+            R$ 99,99
+          </td>
+        </tr>
+        <tr>
+          <td>
+            +Lorem ipsum
+          </td>
+          <td>
+            R$ 9,99
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Total
+          </td>
+          <td>
+            R$ 12.909,99
+          </td>
+        </tr>
+        <tr>
+          <td>
+            [Lucro]
+          </td>
+        </tr>
+      </table>
     </section>
   </main>
 </html>
