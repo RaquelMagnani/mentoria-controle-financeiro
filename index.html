@@ -8,8 +8,10 @@
       href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css" />
   </head>
+ 
   <nav class="nav--container">
     <div class="nav--imgTitle">
 
@@ -18,6 +20,9 @@
     </div>
     
     <div class="menuItens">
+      
+      <input type="checkbox" id="check" />
+      <label id="icone" for="check"><img class="icone--img"src="assets/menu.png" /></label> 
       <div class="link">
         <a href="">Resumo</a>
         
@@ -30,9 +35,6 @@
         
         <a href="">Configurações</a>
       </div>
-      
-      <input type="checkbox" id="check" />
-      <label id="icone" for="check"><img class="icone--img"src="assets/menu.png" /></label> 
     </div>
   </nav>
   <main class="main--container">
@@ -42,7 +44,11 @@
 
         <label>
           Tipo de transição
-          <input type="text" placeholder="Compra"/>
+          <select type="text" placeholder="Compra">
+            <option>
+              Compra
+            </option>
+          </select>
         </label>
         <label>
           Nome da Mercadoria

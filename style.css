@@ -57,7 +57,7 @@ body {
   background-color: blueviolet;
 }
 
-#check:checked ~ .menuItens {
+#check:checked ~ .link {
   background-color: lightblue;
 
 }
