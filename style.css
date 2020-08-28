@@ -18,9 +18,9 @@ body {
   align-items: center;
 }
 
-/* #check {
+#check {
   display: none;
-} */
+}
 
 #icone {
   cursor: pointer;
@@ -47,11 +47,7 @@ body {
   text-decoration: none;
 }
 .link {
- background-color: orchid;
-  padding: 20px;
-  transition: all 0.2s linear;
-   
-  
+ display: none;
 }
 .link:hover {
   background-color: blueviolet;
