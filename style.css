@@ -1,6 +1,10 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+.main--container {
+  font-size: 14px;
+  padding: 26px 20px;
+}
 .menu--container {
   background-color: #e0e0e0;
   display: flex;
@@ -10,40 +14,21 @@ body {
   align-items: center;
 }
 
-#icone {
-  cursor: pointer;
-  z-index: 1;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
 .icone--img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
-.menuItens {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 300px;
-}
-.menuItens a {
-  text-decoration: none;
+
+h1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
 }
 .link {
   display: none;
 }
 .link:hover {
   background-color: blueviolet;
-}
-
-#check:checked ~ .link {
-  background-color: lightblue;
-}
-
-.main--container {
-  font-size: 14px;
-  padding: 26px 20px;
 }
 
 input,
@@ -57,34 +42,38 @@ select {
   padding: 5px 12px;
   line-height: 22px;
   margin-bottom: 22px;
+  margin-top: 7px;
 }
 .form--container {
   border-bottom: 2px solid #e0e0e0;
-}
-
-h3 {
-  display: none;
-  width: 100%;
-  text-align: center;
-}
-.form--container label {
   display: flex;
   flex-direction: column;
-  padding-bottom: 10px;
 }
 
-.form--container label input {
-  border-radius: 3px;
-  margin-top: 10px;
-  border: 2px solid #e0e0e0;
+form h3 {
+  display: none;
+}
+h3{
+  width: 100%;
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .btn {
   background-color: #333333;
   color: #ffffff;
-  padding: 5px;
-  border-radius: 3px;
+  border-radius: 4px;
   width: 100%;
+  height: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .table--container {
