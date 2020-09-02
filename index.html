@@ -16,8 +16,7 @@
     <img class="icone--img" src="assets/Logo.png" />
     <h1>Controle Financeiro</h1>
     <nav>
-      <img class="icone--img" src="assets/menu.png"
-      />
+      <img class="icone--img" src="assets/menu.png" />
       <a class="link" href="">Resumo</a>
 
       <a class="link" href="">Dashboard</a>
@@ -26,20 +25,25 @@
     </nav>
   </div>
 
-
   <main class="main--container">
     <form class="form--container">
       <h3>Nova Transição</h3>
-      <div class="grid--container">
+      <div class="form--itens">
+      <div >
         <label> Tipo de transição </label>
         <select type="text" placeholder="Compra">
           <option>Compra</option>
         </select>
+      </div>
+      <div class="itens-mercadoria">
         <label> Nome da Mercadoria </label>
         <input type="text" placeholder="Input" />
+      </div>
+      <div >
         <label> Valor </label>
         <input type="number" placeholder="R$ 0,00" />
       </div>
+    </div>
       <div class="btn--container">
         <button class="btn">Adicionar transação</button>
       </div>
@@ -54,17 +58,17 @@
           <td class="td--titulo">Valor</td>
         </tr>
         <tr class="tr--border">
-          <td>Lorem ipsum dolor sit amet consectetur</td>
+          <td>+ Lorem ipsum dolor sit amet consectetur</td>
           <td></td>
           <td>R$ 12.909,99</td>
         </tr>
         <tr class="tr--border">
-          <td>Quis nostrud exercitation</td>
+          <td>- Quis nostrud exercitation</td>
           <td></td>
           <td>R$ 99,99</td>
         </tr>
         <tr class="tr--border">
-          <td>+Lorem ipsum</td>
+          <td>+ Loorem ipsum</td>
           <td></td>
           <td>R$ 9,99</td>
         </tr>
@@ -73,8 +77,8 @@
           <td></td>
           <td class="td--titulo">R$ 12.909,99</td>
         </tr>
-        <tr >
-          <td ></td>
+        <tr>
+          <td></td>
           <td></td>
           <td class="td--lucro">[Lucro]</td>
         </tr>

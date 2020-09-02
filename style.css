@@ -45,7 +45,6 @@ select {
   margin-top: 7px;
 }
 .form--container {
-  border-bottom: 2px solid #e0e0e0;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #979797;
@@ -54,7 +53,7 @@ select {
 form h3 {
   display: none;
 }
-h3{
+h3 {
   width: 100%;
   text-align: center;
   font-family: Lato;
@@ -88,63 +87,62 @@ h3{
 
 table td {
   font-size: 14px;
-line-height: 16px;
-padding-top: 15px;
-
+  line-height: 16px;
+  padding-top: 15px;
 }
 
-tr.tr--border td{
-  border-bottom:1px solid  #979797;
+tr.tr--border td {
+  border-bottom: 1px solid #979797;
 }
 
-tr.tr--border-top td{
-  border-top:1px solid #979797;
+tr.tr--border-top td {
+  border-top: 1px solid #979797;
 }
-.td--titulo{
+.td--titulo {
   font-weight: bold;
-font-size: 14px;
-line-height: 16px;
+  font-size: 14px;
+  line-height: 16px;
 }
-.td--lucro{
+.td--lucro {
   font-size: 10px;
-line-height: 22px;
-padding-top: 0px;
+  line-height: 22px;
+  padding-top: 0px;
 }
-
 
 @media only screen and (min-width: 634px) and (max-width: 1023px) {
+  form h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 20px;
+  }
+
   .main--container {
     font-size: 14px;
     padding-top: 40px;
   }
   .form--container {
     border: 2px solid #e0e0e0;
-    width: 90vw;
     padding: 20px;
   }
 
-  .grid--container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
+  .form--itens {
+    display: flex;
+    justify-content: space-between;
   }
 
-  .form--container label {
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
+  .itens-mercadoria {
+    width: 40%;
   }
+
   .btn {
-    width: 30%;
+    width: 25vw;
   }
   .btn--container {
-    width: 90vw;
     display: flex;
     justify-content: flex-end;
-  }
-  .table--container {
-    display: flex;
-    flex-direction: column;
   }
 }
 
