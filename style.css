@@ -91,13 +91,31 @@ table td {
   padding-top: 15px;
 }
 
+
 tr.tr--border td {
   border-bottom: 1px solid #979797;
+  padding-left: 40px;
+  padding-bottom: 8px;
+  width: 100px;
+ 
+  
+}
+tr.tr--border td:last-child{
+  text-align: end;
+  padding-right:20px ;
 }
 
 tr.tr--border-top td {
   border-top: 1px solid #979797;
+  padding-left: 40px;
+  padding-bottom: 8px;
+  width: 100px;
 }
+tr.tr--border-top td:last-child{
+  text-align: end;
+  padding-right:20px ;
+}
+
 .td--titulo {
   font-weight: bold;
   font-size: 14px;
@@ -107,6 +125,8 @@ tr.tr--border-top td {
   font-size: 10px;
   line-height: 22px;
   padding-top: 0px;
+  text-align: end;
+  padding-right: 20px;
 }
 
 @media only screen and (min-width: 634px) and (max-width: 1023px) {
