@@ -9,7 +9,7 @@ body {
   background-color: #e0e0e0;
   display: flex;
   justify-content: space-between;
-  height: 50px;
+  height: 60px;
   padding: 20px;
   align-items: center;
 }
@@ -91,18 +91,15 @@ table td {
   padding-top: 15px;
 }
 
-
 tr.tr--border td {
   border-bottom: 1px solid #979797;
   padding-left: 40px;
   padding-bottom: 8px;
   width: 100px;
- 
-  
 }
-tr.tr--border td:last-child{
+tr.tr--border td:last-child {
   text-align: end;
-  padding-right:20px ;
+  padding-right: 20px;
 }
 
 tr.tr--border-top td {
@@ -111,9 +108,9 @@ tr.tr--border-top td {
   padding-bottom: 8px;
   width: 100px;
 }
-tr.tr--border-top td:last-child{
+tr.tr--border-top td:last-child {
   text-align: end;
-  padding-right:20px ;
+  padding-right: 20px;
 }
 
 .td--titulo {
@@ -167,23 +164,35 @@ tr.tr--border-top td:last-child{
 }
 
 @media only screen and (min-width: 1024px) {
-  #icone {
+  .icone--img--hamb {
     display: none;
   }
-
-  .menuItens {
-    border: 2px solid orange;
-    width: 400px;
+  .nav--container {
+   height: 40px;
+    width: 350px;
+    background: white;
     display: flex;
-    justify-content: flex-start;
-
-    background-color: #ffffff;
-    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
   }
-
+  .link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #333333;
+    text-decoration: none;
+    display: inline;
+    background-color: #ffffff;
+    padding:4px;
+    border-left: 1px solid #979797;
+    }
+  
   .menu--container {
     display: flex;
     justify-content: space-between;
+    height: 80px;
+   
   }
 
   .menu--imgTitle {
@@ -194,32 +203,29 @@ tr.tr--border-top td:last-child{
   .main--container {
     display: flex;
     justify-content: space-evenly;
+    
   }
 
   .form--container {
     border: 2px solid #e0e0e0;
-    width: 30vw;
+   
     display: flex;
     flex-direction: column;
+    padding:15px 20px;
   }
-  .form--container label {
-    padding-bottom: 10px;
+  form h3 {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top:20px;
   }
-  .grid--container {
-    display: flex;
-    flex-direction: column;
-  }
-  .btn--container {
-    width: 80vw;
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .btn {
-    width: 30%;
-  }
+  
+ .btn{
+   margin-bottom: 0px;
+ }
+  
   .table--container {
     width: 60vw;
     display: flex;
